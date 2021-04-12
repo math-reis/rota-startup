@@ -13,11 +13,18 @@
   --main-color: rebeccapurple;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
-  color: #333;
-  background-color: snow;
   margin: 0 auto;
   max-width: 2048px;
+  color: #0a1f45;
 }
 
 .container {
@@ -28,7 +35,8 @@ body {
 
 header {
   padding: 15px 30px 15px 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgb(102, 51, 153, 0.25);
+  background-color: snow;
 }
 
 header h1 {
@@ -39,6 +47,7 @@ header h1 {
 
 main {
   padding: 15px 30px 15px 30px;
+  background-color: whitesmoke;
 }
 
 main h2 {
@@ -48,21 +57,63 @@ main h2 {
   font-weight: 200;
   line-height: 1.5;
   color: #0a1f45;
+  letter-spacing: 1px;
 }
 
-.pergunta {
+.questionBlock {
+  background-color: snow;
+  padding: 15px;
   margin: 50px 0 50px 0;
-  border: 2px solid red;
-  border-radius: 2rem;
+  border: 1px solid rgb(102, 51, 153, 0.25);
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-.pergunta h3 {
-  padding: 25px;
+.questionBlock h3 {
+  margin: 0;
+  padding: 30px;
+  font-size: 26px;
 }
 
-.pergunta button {
+.questionBlock h4 {
+  margin: 0;
+  padding: 0 30px 0 30px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.btnBlock {
+  display: grid;
+  padding: 5px;
+  margin: 30px;
+}
+
+.questionBtn {
+  background-color: rgb(102, 51, 153, 0.75);
+  border-radius: 8px;
+  border-style: none;
+  height: 50px;
+  color: whitesmoke;
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-top: 1px solid rgb(102, 51, 153, 0.25);
+  background-color: snow;
+}
+
+footer a {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #0a1f45;
 }
 
 /* 
