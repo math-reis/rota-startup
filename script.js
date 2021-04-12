@@ -9,7 +9,7 @@ const questions = [
   },
   {
     question: "Where are you from?",
-    example: "Berlin",
+    example: "Berlin Where are you from? Where are you from?",
   },
 ];
 
