@@ -97,7 +97,7 @@ main h2 {
   border-style: none;
   height: 50px;
   color: whitesmoke;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 1px;
 }
@@ -106,22 +106,25 @@ main h2 {
   outline: none;
 }
 
-.infoBlock {
-  padding: 25px 0 25px 0;
+.aboutBlock {
+  margin: 25px 0 25px 0;
   line-height: 1.5;
 }
 
-.infoBlock h5 {
+.aboutBlock h5 {
   margin: 0;
   text-align: center;
   font-weight: 200;
   font-size: 28px;
 }
 
-.infoBlock p {
+.aboutBlock p {
   text-align: justify;
   font-weight: 300;
   font-size: 18px;
+}
+
+.infoBlock {
 }
 
 footer {
