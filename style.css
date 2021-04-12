@@ -9,6 +9,12 @@
   font-family: "Inter", sans-serif;
 }
 
+.fa,
+.fas,
+.fab {
+  font-family: "FontAwesome" !important;
+}
+
 :root {
   --main-color: rebeccapurple;
 }
@@ -71,13 +77,16 @@ main h2 {
   line-height: 1.5;
 }
 
-.questionBlock h3 {
+.question {
+  display: grid;
   margin: 0;
   padding: 30px;
   font-size: 26px;
+  font-weight: 600;
 }
 
-.questionBlock h4 {
+.questionEx {
+  display: grid;
   margin: 0;
   padding: 0 30px 0 30px;
   font-size: 18px;
@@ -100,6 +109,7 @@ main h2 {
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .questionBtn:focus {
@@ -122,9 +132,6 @@ main h2 {
   text-align: justify;
   font-weight: 300;
   font-size: 18px;
-}
-
-.infoBlock {
 }
 
 footer {
