@@ -1,15 +1,18 @@
 const questions = [
   {
-    question: "What is your name? How old are you? How old are you?",
-    example: "Matheus",
+    question: "Você poderia falar um pouco sobre você?",
+    example:
+      "",
   },
   {
-    question: "How old are you?",
-    example: "27",
+    question: "Como você ficou sabendo da vaga?",
+    example:
+      "",
   },
   {
-    question: "Where are you from?",
-    example: "Berlin Where are you from? Where are you from?",
+    question: "O que você sabe sobre a empresa?",
+    example:
+      "",
   },
 ];
 
