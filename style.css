@@ -6,17 +6,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
-
-.fa,
-.fas,
-.fab {
-  font-family: "FontAwesome" !important;
 }
 
 :root {
-  --main-color: rebeccapurple;
+  --maintext: #0a1f45;
+  --smoke: whitesmoke;
+  --snow: snow;
 }
 
 ul {
@@ -25,12 +20,35 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--maintext);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 200;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 200;
 }
 
 body {
+  padding: 0;
   margin: 0 auto;
-  max-width: 2048px;
-  color: #0a1f45;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: var(--maintext);
+  background-color: var(--smoke);
 }
 
 .container {
@@ -41,61 +59,77 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   min-height: 8vh;
-
   padding: 15px 30px 15px 30px;
   border-bottom: 2px solid rgb(102, 51, 153, 0.25);
-  background-color: snow;
+  background-color: var(--snow);
 }
 
 header h1 {
   margin: 0;
-  font-size: 36px;
-  color: #0a1f45;
 }
 
 main {
   padding: 15px 30px 15px 30px;
-  background-color: whitesmoke;
 }
 
 main h2 {
   margin: 50px 25px 75px 25px;
   text-align: center;
-  font-size: 28px;
-  font-weight: 200;
-  line-height: 1.5;
-  color: #0a1f45;
-  letter-spacing: 1px;
 }
 
 .questionBlock {
-  background-color: snow;
   padding: 15px;
-  margin: 0 0 75px 0;
+  text-align: center;
+  background-color: var(--snow);
   border: 2px solid rgb(102, 51, 153, 0.25);
   border-radius: 8px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  line-height: 1.5;
 }
 
 .question {
   display: grid;
-  margin: 0;
-  padding: 30px;
+  margin: 30px;
   font-size: 26px;
   font-weight: 600;
 }
 
 .example {
   display: grid;
-  margin: 0;
-  padding: 0 30px 0 30px;
+  margin: 0 30px 0 30px;
   font-size: 18px;
   font-weight: 300;
+}
+
+.questionBtn {
+  height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--smoke);
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    rgba(53, 51, 153, 0.75),
+    rgba(100, 61, 139, 0.75)
+  );
+}
+
+.questionBtn:focus {
+  outline: none;
+}
+
+.questionBtn:hover {
+  font-weight: 400;
+  background-image: linear-gradient(
+    to right,
+    rgba(53, 51, 153, 0.8),
+    rgb(102, 51, 153, 0.8)
+  );
 }
 
 .btnBlock {
@@ -104,69 +138,57 @@ main h2 {
   margin: 30px;
 }
 
-.questionBtn {
-  background-image: linear-gradient(
-    to right,
-    rgba(53, 51, 153, 0.75),
-    rgb(102, 51, 153, 0.75)
-  );
-  border-radius: 8px;
-  border-style: none;
-  height: 50px;
-  color: whitesmoke;
-  font-weight: 300;
-  font-size: 18px;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
-.questionBtn:focus {
-  outline: none;
-}
-
-.questionBtn:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(53, 51, 153, 0.8),
-    rgb(102, 51, 153, 0.8)
-  );
-  font-weight: 400;
-}
-
 .aboutBlock {
-  margin: 25px 0 25px 0;
-  line-height: 1.5;
+  margin: 75px 0 75px 0;
 }
 
-.aboutBlock h5 {
+.aboutBlock h3 {
   margin: 0;
   text-align: center;
-  font-weight: 200;
-  font-size: 28px;
 }
 
 .aboutBlock p {
   text-align: justify;
-  font-weight: 300;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .infoBlock {
+  margin: 0 0 75px 0;
+}
+
+.infoBlock h4 {
+  margin: 0;
+}
+
+.questionsIcon,
+.visitsIcon,
+.talkingIcon {
+  padding: 15px;
+  margin: 25px 100px 25px 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* question block config */
+  background-color: var(--snow);
+  border: 2px solid rgb(102, 51, 153, 0.25);
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 footer {
   display: flex;
-  justify-content: center;
   padding: 15px;
+  justify-content: center;
+  background-color: var(--snow);
   border-top: 2px solid rgb(102, 51, 153, 0.25);
-  background-color: snow;
 }
 
 footer a {
-  font-size: 14px;
   margin: 0;
   padding: 0;
-  color: #0a1f45;
+  font-size: 14px;
 }
 
 /* 
