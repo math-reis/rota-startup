@@ -41,8 +41,19 @@ h3 {
   font-size: 28px;
   font-weight: 200;
 }
+
 h4 {
   font-size: 16px;
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 21px;
   font-weight: 200;
 }
 
@@ -71,13 +82,8 @@ header {
   background-color: var(--snow);
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.logo h1 {
+header h1,
+h6 {
   margin: 0;
 }
 
@@ -192,59 +198,38 @@ footer {
   border: 2px solid rgb(102, 51, 153, 0.25);
 }
 
-footer a, h5 {
+footer a,
+h5 {
   margin: 0;
   padding: 0;
-  font-size: 14px;
-  font-weight: 300;
   color: var(--maintext);
 }
 
-/* 
 @media (min-width: 720px) {
-  .task-3-1.container {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto 1fr auto;
+  header {
+    padding: 30px 60px 30px 60px;
+  }
+  main {
+    padding: 15px 60px 15px 60px;
   }
 
-  .task-3-1 .header {
-    grid-column: 1 / span 12;
-  }
-
-  .task-3-1 .main {
-    grid-column: 3 / span 10;
-    grid-row: 2 / 4;
-  }
-
-  .task-3-1 .sidebar {
-    grid-column: 1 / span 2;
-    grid-row: 2 / 4;
-  }
-
-  .task-3-1 .ads {
-    grid-column: 1 / span 2;
-  }
-
-  .task-3-1 .footer {
-    grid-column: 3 / span 10;
-  }
+  .questionsIcon,
+  .visitsIcon,
+  .talkingIcon {
+  padding: 15px;
+  margin: 25px 150px 25px 150px;
 }
 
 @media (min-width: 1020px) {
-  .task-3-1 .main {
-    grid-column: 3 / span 8;
+  header {
+    padding: 30px 90px 30px 90px;
+    justify-content: space-between;
+  }
+  main {
+    padding: 15px 90px 15px 90px;
   }
 
-  .task-3-1 .sidebar {
-    grid-row: 2 / 4;
-  }
-
-  .task-3-1 .ads {
-    grid-column: 11 / span 2;
-    grid-row: 2 / 4;
-  }
-
-  .task-3-1 .footer {
-    grid-column: 1 / span 12;
-  }
-} */
+  .questionBlock {
+margin: 0 90px 0 90px;
+}
+}
