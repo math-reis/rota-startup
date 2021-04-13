@@ -230,15 +230,15 @@ h5 {
 
 @media (min-width: 1020px) {
   header {
-    padding: 30px 90px 30px 90px;
+    padding: 30px 120px 30px 120px;
     justify-content: space-between;
   }
   main {
-    padding: 15px 90px 15px 90px;
+    padding: 15px 120px 15px 120px;
   }
 
   main h2 {
-    margin: 50px 75px 75px 75px;
+    margin: 50px 120px 75px 120px;
     text-align: center;
   }
 
@@ -246,10 +246,15 @@ h5 {
     margin: 0 120px 0 120px;
   }
 
+  .infoBlock {
+    display: flex;
+    justify-content: center;
+  }
+
   .questionsIcon,
   .visitsIcon,
   .talkingIcon {
-    padding: 15px;
-    margin: 25px 250px 25px 250px;
+    margin: 15px;
+    width: 200px;
   }
 }
