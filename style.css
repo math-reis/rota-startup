@@ -227,11 +227,18 @@ h5 {
   .questionBlock {
     margin: 0 60px 0 60px;
   }
+
+  .infoBlock {
+    display: flex;
+    justify-content: center;
+  }
+
   .questionsIcon,
   .visitsIcon,
   .talkingIcon {
-    padding: 15px;
-    margin: 25px 150px 25px 150px;
+    margin: 15px;
+    width: 175px;
+    height: 215px;
   }
 }
 
@@ -262,6 +269,7 @@ h5 {
   .visitsIcon,
   .talkingIcon {
     margin: 15px;
-    width: 200px;
+    width: 225px;
+    height: 200px;
   }
 }
