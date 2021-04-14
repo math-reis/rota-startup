@@ -196,6 +196,13 @@ main h1 {
   box-shadow: 3px 3px 5px var(--shadow);
 }
 
+.questionsIcon img,
+.visitsIcon img,
+.talkingIcon img {
+  width: 96px;
+  height: 96px;
+}
+
 footer {
   display: flex;
   padding: 15px;
