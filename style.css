@@ -9,9 +9,17 @@
 }
 
 :root {
-  --maintext: #0a1f45;
-  --smoke: whitesmoke;
-  --snow: snow;
+  --smoke: rgb(245, 245, 245);
+  --snow: rgb(255, 250, 250);
+  --ligth: rgb(64, 93, 255, 0.75);
+  --ligther: rgb(64, 93, 255, 0.85);
+  --medium: rgb(102, 76, 255, 0.75);
+  --mediuner: rgb(102, 76, 255, 0.85);
+  --dark: rgb(173, 46, 255, 0.75);
+  --darker: rgb(173, 46, 255, 0.85);
+  --maintext: rgb(10, 31, 69);
+  --border: rgba(102, 51, 153, 0.25);
+  --shadow: rgba(0, 0, 0, 0.2);
 }
 
 ul {
@@ -28,13 +36,13 @@ p {
 }
 
 h1 {
-  font-size: 36px;
-}
-
-h2 {
   font-size: 28px;
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 h3 {
@@ -78,11 +86,11 @@ header {
   justify-content: space-between;
   min-height: 8vh;
   padding: 30px 30px 30px 30px;
-  border-bottom: 2px solid rgb(102, 51, 153, 0.25);
+  border-bottom: 2px solid var(--border);
   background-color: var(--snow);
 }
 
-header h1,
+header h2,
 h6 {
   margin: 0;
 }
@@ -91,7 +99,7 @@ main {
   padding: 15px 30px 15px 30px;
 }
 
-main h2 {
+main h1 {
   margin: 50px 25px 75px 25px;
   text-align: center;
 }
@@ -100,9 +108,9 @@ main h2 {
   padding: 15px;
   text-align: center;
   background-color: var(--snow);
-  border: 2px solid rgb(102, 51, 153, 0.25);
+  border: 2px solid var(--border);
   border-radius: 8px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 5px var(--shadow);
 }
 
 .question {
@@ -129,9 +137,9 @@ main h2 {
   cursor: pointer;
   background-image: linear-gradient(
     to right,
-    rgb(64, 93, 255, 0.75),
-    rgb(102, 76, 255, 0.75),
-    rgb(173, 46, 255, 0.75)
+    var(--ligth),
+    var(--medium),
+    var(--dark)
   );
 }
 
@@ -142,9 +150,9 @@ main h2 {
 .questionBtn:hover {
   background-image: linear-gradient(
     to right,
-    rgb(64, 93, 255, 0.85),
-    rgb(102, 76, 255, 0.85),
-    rgb(173, 46, 255, 0.85)
+    var(--ligther),
+    var(--mediuner),
+    var(--darker)
   );
 }
 
@@ -185,9 +193,9 @@ main h2 {
   /* question block config */
   text-align: center;
   background-color: var(--snow);
-  border: 2px solid rgb(102, 51, 153, 0.25);
+  border: 2px solid var(--border);
   border-radius: 8px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 5px var(--shadow);
 }
 
 footer {
@@ -195,7 +203,7 @@ footer {
   padding: 15px;
   justify-content: center;
   background-color: var(--snow);
-  border: 2px solid rgb(102, 51, 153, 0.25);
+  border: 2px solid var(--border);
 }
 
 footer a,
