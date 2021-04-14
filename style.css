@@ -28,6 +28,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--maintext);
 }
 
 p {
@@ -221,7 +222,6 @@ footer a,
 h4 {
   margin: 0;
   padding: 0;
-  color: var(--maintext);
 }
 
 @media (min-width: 720px) {
