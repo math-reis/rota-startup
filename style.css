@@ -13,7 +13,7 @@
   --snow: rgb(255, 250, 250);
   --ligth: rgb(64, 93, 255, 0.75);
   --ligther: rgb(64, 93, 255, 0.85);
-  --medium: rgb(102, 76, 255, 0.75);
+  --medium: rgba(102, 76, 255, 0.749);
   --mediuner: rgb(102, 76, 255, 0.85);
   --dark: rgb(173, 46, 255, 0.75);
   --darker: rgb(173, 46, 255, 0.85);
@@ -74,11 +74,17 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   min-height: 8vh;
   padding: 30px 30px 30px 30px;
   border-bottom: 2px solid var(--border);
   background-color: var(--snow);
+}
+
+.logo-img {
+  width: 50px;
+  height: 40px;
+  margin: 0 5px 0 0;
 }
 
 .logo {
@@ -251,7 +257,6 @@ h4 {
 @media (min-width: 1020px) {
   header {
     padding: 30px 120px 30px 120px;
-    justify-content: space-between;
   }
   main {
     padding: 15px 120px 15px 120px;
