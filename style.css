@@ -178,6 +178,8 @@ main h1 {
 
 .infoBlock {
   margin: 0 0 75px 0;
+  display: grid;
+  justify-content: center;
 }
 
 .infoBlock h4 {
@@ -188,7 +190,9 @@ main h1 {
 .visitsIcon,
 .talkingIcon {
   padding: 15px;
-  margin: 25px 100px 25px 100px;
+  margin: 15px;
+  width: 220px;
+  height: 184px;
   /* question block config */
   text-align: center;
   background-color: var(--snow);
