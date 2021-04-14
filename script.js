@@ -214,7 +214,7 @@ const questions = [
   },
   {
     question:
-      "Está disposto a trabalhar para além de seu horário, fazendo noites e fins de semana?",
+      "Está disposto a trabalhar para além de seu horário, à noite ou fins de semana?",
     example:
       "Responda com sinceridade e moderação. Deixe claro que, havendo um prévio acordo, não há problemas em uma possível mudança de rotina, uma vez que é preciso manter o equilíbrio com os outros âmbitos da vida. Enfatize, também, que você está aberto a negociações e sugestões para suprir as necessidades da empresa. Caso não seja viável para você trabalhar em horários diversos aos pré-estabelecidos, deixe isso claro ao entrevistador.",
   },
@@ -246,7 +246,7 @@ const questions = [
       "Deixe claro que você é aberto a críticas, desde que construtivas, e que está sempre em busca do desenvolvimento pessoal e profissional. O foco da resposta deve estar nas ações tomadas após a crítica, e não sobre o modo como você reage a elas.",
   },
   {
-    question: "Não acha que você tem qualificações demais para esta vaga?",
+    question: "Você não acha que tem qualificações demais para a vaga?",
     example:
       "A intenção principal dessa pergunta é a de avaliar o seu potencial de desinteresse pelo trabalho a longo prazo. Deixe claro que, apesar das suas qualificações, você está disposto e entusiasmado com essa nova oportunidade. Evite demonstrar que a vaga será apenas temporária.",
   },
@@ -287,7 +287,7 @@ const questions = [
       "O recrutador quer verificar como foi a sua capacidade de adaptação à pandemia, e se você buscou autodesenvolvimento durante o período. Fale sobre cursos online, livros, esportes, e outras atividades que você começou ou manteve. Se você souber que a empresa adotou home office, deixe claro que você está adaptado a essa nova realidade de trabalho.",
   },
   {
-    question: "Dica: nunca minta no currículo ou na entrevista.",
+    question: "Dica: nunca minta no currículo ou na entrevista!",
     example:
       "Por mais que você queira passar a imagem de uma pessoa mais qualificada, a atitude de mentir pode se tornar mais prejudicial do que a própria falta de qualificação. Além de ser fácil para o entrevistador perceber algumas inconsistências no seu currículo, esta atitude pode deixar você marcado para além das portas da empresa. Saiba que é possível valorizar suas habilidades e ser franco sobre suas falhas sem precisar recorrer a exageros ou histórias mal contadas.",
   },
@@ -297,32 +297,32 @@ const questions = [
       "Para perguntas comportamentais do tipo “me dê um exemplo de uma vez em que você soube ser flexível”, é sempre valioso utilizar o método “STAR” (situação, tarefa, ação, resultado). Situação: descreva um problema (situação) que precisava de solução, um projeto, um desafio qualquer. Tarefa: especifique os serviços necessários para a resolução do problema. Ação: deixe claro qual foi a sua contribuição efetiva para a resolução do problema. Resultado: apresente o que a empresa e/ou você ganharam com o ocorrido.",
   },
   {
-    question: "Dica: pratique o autoconhecimento.",
+    question: "Dica: pratique o autoconhecimento!",
     example:
       "Talvez a dica mais importante de todas, e talvez a mais negligenciada. O autoconhecimento é um exercício diário de reconhecimento dos seus pontos fortes, fracos, de suas capacidades, habilidades e experiências. É a partir do autoconhecimento que ganhamos confiança e firmeza em nossas respostas. Portanto, não busque respostas prontas, e sim respostas próprias. O entrevistador ouve diariamente respostas muito semelhantes umas às outras. Se você exercitar o seu autoconhecimento, com certeza realizará uma entrevista mais autentica e que irá marcar o entrevistado.",
   },
   {
-    question: "Dica: pratique constantemente.",
+    question: "Dica: pratique constantemente suas respostas!",
     example:
       "Fale consigo mesmo em voz alta. Treine suas falas. Pense nas perguntas e ouça suas respostas. Se preferir, treine com algum amigo ou familiar, ou até mesmo com a câmera do celular. Melhore suas respostas, encurte-as, busque falar com desenvoltura. Quanto mais confiança você tiver em suas palavras, menos nervosismo você vai sentir na hora da entrevista, e consequentemente melhor ela será.",
   },
   {
-    question: "Dica: pesquise sobre a empresa. ",
+    question: "Dica: pesquise sobre a empresa!",
     example:
       "Use o Google, procure pessoas que já trabalharam na empresa, levante todas as informações possíveis. Mencionar algo da história ou dos números da empresa é um sinal de que você realmente está interessado na vaga.",
   },
   {
-    question: "Dica: pesquise sobre a vaga.",
+    question: "Dica: pesquise sobre a vaga!",
     example:
       "Tente descobrir detalhes sobre a vaga. Além de proporcionar mais segurança sobre o trabalho que você pretende desempenhar, essas informações lhe darão embasamento para perguntas pertinentes sobre na hora da entrevista.",
   },
   {
-    question: "Dica: preste atenção ao seu corpo.",
+    question: "Dica: preste atenção ao seu corpo!",
     example:
       "Olhe nos olhos do entrevistador, tenha uma postura ereta na cadeira, e evite ficar de braços cruzados ou mexendo as pernas. A postura corporal pode ser um grande aliado, mas também um grande vilão, na hora da entrevista.",
   },
   {
-    question: "Dica: calibre o tom de voz.",
+    question: "Dica: calibre o seu tom de voz!",
     example:
       "Ficar alterando o tom de voz passa a ideia de nervosismo. Por outro lado, falar muito baixo indica um excesso de timidez. Muito alto, então, é descontrole – ou indício de que você pode ser um chefe autoritário. Busque sempre um tom netro e contínuo, porém confiante, em suas palavras.",
   },
