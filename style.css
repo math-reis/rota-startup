@@ -232,8 +232,8 @@ h4 {
     padding: 15px 60px 15px 60px;
   }
 
-  main h2 {
-    margin: 50px 50px 75px 50px;
+  main h1 {
+    margin: 50px 60px 75px 60px;
     text-align: center;
   }
   .questionBlock {
@@ -262,7 +262,7 @@ h4 {
     padding: 15px 120px 15px 120px;
   }
 
-  main h2 {
+  main h1 {
     margin: 50px 120px 75px 120px;
     text-align: center;
   }
