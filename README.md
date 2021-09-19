@@ -2,12 +2,12 @@
 
 ## Technologies
 
-*Application Tier:* Spring Boot
+**Application Tier:** Spring Boot
 
-Database: Apache Cassandra
+**Database:** Apache Cassandra
 
-Data Layer: Spring Data Cassandra
+**Data Layer:** Spring Data Cassandra
 
-Security: Spring Security
+**Security:** Spring Security
 
-View Layer: Thymeleaf
+**View Layer:** Thymeleaf
