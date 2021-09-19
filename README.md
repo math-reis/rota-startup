@@ -2,7 +2,7 @@
 
 ## Technologies
 
-Application Tier: Spring Boot
+*Application Tier:* Spring Boot
 
 Database: Apache Cassandra
 
